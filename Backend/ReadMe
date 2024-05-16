@@ -1,0 +1,50 @@
+Getting books from Database
+
+# GET Method
+
+http://localhost:3000/books
+
+---
+
+Getting Specific book details
+
+# GET Method
+
+http://localhost:3000/books/1
+
+---
+
+Insert the book into Database
+
+# POST Method
+
+http://localhost:3000/books
+
+{
+"name": "Harry Potter",
+"img": "https://bit.ly/2IcnSwz",
+"summary": "Here is your Harry potter book"
+}
+
+---
+
+Update Existing book details
+
+# Put Method
+
+http://localhost:3000/books/:id
+{
+"name": "Harry Potter book",
+"img": "https://bit.ly/2IcnSwz",
+"summary": "Here is your Harry potter book"
+}
+
+---
+
+Delete book from database
+
+# DELETE Method
+
+http://localhost:3000/books/:id
+
+Here I'm Sharing my database sql file
